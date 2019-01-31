@@ -54,8 +54,8 @@ total = end - start
 # distance between two point(km)
 dis = distance(lat1, lng1, lat2, lng2)
 
-# time between two point(s)
 tt = 60 / total
+
 v = (dis / total)*tt*60
 print(dis)
 print(tt)
