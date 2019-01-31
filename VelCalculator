@@ -2,6 +2,8 @@
 from math import radians, cos, sin, asin, sqrt
 import requests
 import time
+
+# haversine formula
 def distance(lat1, lng1, lat2, lng2):
     """
     Calculate the great circle distance (in miles) between two points
