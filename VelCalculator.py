@@ -1,4 +1,4 @@
-# ISS velocity calculator
+# Use data from OpenNotify to calculate ISS velocity
 from math import radians, cos, sin, asin, sqrt
 import requests
 import time
